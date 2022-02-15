@@ -5,13 +5,17 @@ import InputTodo from "./InputTodo";
 import TodoList from "./TodoList";
 import { v4 as uuidv4 } from "uuid";
 import "./App.css";
+import About from "./pages/About";
+import NotMatch from "./pages/NotMatch";
+import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const TodoContainer = () => {
   function getInitialTodos() {
     const temp = localStorage.getItem("todos");
     const savedTodos = JSON.parse(temp);
-   
-    return {todos:savedTodos} || {todos:[]};
+
+    return { todos: savedTodos } || { todos: [] };
   }
   const [state, setState] = useState(getInitialTodos());
 
@@ -68,19 +72,35 @@ const TodoContainer = () => {
   }, [state.todos]);
 
   return (
-    <div className="container">
-      <div className="inner">
-        <NavBar />
-        <Header />
-        <InputTodo addTodoProps={addTodoItem} />{" "}
-        <TodoList
-          todos={state.todos}
-          deleteTodoProps={delTodo}
-          setUpdate={setUpdate}
-          handleChangeProps={handleChange}
-        />{" "}
-      </div>{" "}
-    </div>
+    <>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <>
+              <div className="container">
+                <div className="inner">
+                  <Header />
+                  <InputTodo addTodoProps={addTodoItem} />
+                  <TodoList
+                    todos={state.todos}
+                    handleChangeProps={handleChange}
+                    deleteTodoProps={delTodo}
+                    setUpdate={setUpdate}
+                  />
+                </div>
+              </div>
+            </>
+          }
+        />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotMatch />} />
+      </Routes>
+      </Router>
+    </>
   );
 };
 
