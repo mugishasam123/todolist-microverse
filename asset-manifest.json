@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/todolist-microverse/static/css/main.ba362980.css",
-    "main.js": "/todolist-microverse/static/js/main.8f4c087a.js",
+    "main.js": "/todolist-microverse/static/js/main.031fe304.js",
     "static/js/787.63e47474.chunk.js": "/todolist-microverse/static/js/787.63e47474.chunk.js",
     "index.html": "/todolist-microverse/index.html",
     "main.ba362980.css.map": "/todolist-microverse/static/css/main.ba362980.css.map",
-    "main.8f4c087a.js.map": "/todolist-microverse/static/js/main.8f4c087a.js.map",
+    "main.031fe304.js.map": "/todolist-microverse/static/js/main.031fe304.js.map",
     "787.63e47474.chunk.js.map": "/todolist-microverse/static/js/787.63e47474.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba362980.css",
-    "static/js/main.8f4c087a.js"
+    "static/js/main.031fe304.js"
   ]
 }
