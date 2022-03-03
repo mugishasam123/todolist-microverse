@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Calculator-blue)
+![](https://img.shields.io/badge/Todolist-blue)
 
-# Calculator
+# Todolist
 
-> Calculator is an app that allows you to do all basic mathematical calculations and also displays the quote of the day`. It is built using React js
+> Todolist is an app that allows you to track all of your daily activities by setting up activities,editing and removing them .`. It is built using React js
 > 
 
 ![screenshot](./src/img/screen.png)
@@ -75,8 +75,7 @@ $ npm start # this will open it in the browser and enable hot reloading
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mugishasam123/todolist-microverse
-/issues).
+Feel free to check the [issues page](https://github.com/mugishasam123/todolist-microverse/issues).
 
 <br>
 
