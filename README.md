@@ -11,7 +11,7 @@
 
 # Live Demo
 
-[Live Link](https://math-magicians42.herokuapp.com/)
+[Live Link](https://mugishasam123.github.io/todolist-microverse/)
 
 <br/>
 
@@ -47,9 +47,9 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/mugishasam123/Math-magicians
+$ git clone https://github.com/mugishasam123/todolist-microverse
 .git
-$ cd Math-magicians
+$ cd todolist-microverse
 
 ```
 #### Run project
@@ -75,7 +75,7 @@ $ npm start # this will open it in the browser and enable hot reloading
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mugishasam123/Math-magicians
+Feel free to check the [issues page](https://github.com/mugishasam123/todolist-microverse
 /issues).
 
 <br>
