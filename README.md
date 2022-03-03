@@ -5,7 +5,8 @@
 > Todolist is an app that allows you to track all of your daily activities by setting up activities,editing and removing them .`. It is built using React js
 > 
 
-![screenshot](./src/img/screen.png)
+![screenshot](![image](https://user-images.githubusercontent.com/90524466/156592086-0a2944d8-3ca5-48a5-b2c7-c7f10344669a.png)
+)
 
 <br/>
 
